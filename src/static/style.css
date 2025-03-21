@@ -1,0 +1,94 @@
+/* Main layout */
+.main {
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #111827;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* Chat interface */
+.chat-message {
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+    border: 1px solid #e5e7eb;
+}
+
+.user-message {
+    background-color: #f9fafb;
+}
+
+.assistant-message {
+    background-color: #ffffff;
+}
+
+/* Buttons */
+.stButton > button {
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e5e7eb;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+.stButton > button:hover {
+    border-color: #2563eb;
+    color: #2563eb;
+}
+
+/* Forms */
+.stTextInput > div > div,
+.stTextArea > div > div,
+.stSelectbox > div > div {
+    border-radius: 4px;
+}
+
+/* Status indicators */
+.status-indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.status-online {
+    background-color: #10b981;
+}
+
+.status-offline {
+    background-color: #ef4444;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+/* Expanders */
+.streamlit-expanderHeader {
+    border-radius: 4px;
+    border: 1px solid #e5e7eb;
+}
+
+/* Code blocks */
+.stCodeBlock {
+    border-radius: 4px;
+} 

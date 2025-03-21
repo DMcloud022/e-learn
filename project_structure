@@ -1,0 +1,12 @@
+chatbot_system/
+├── .env
+├── requirements.txt
+├── README.md
+├── data/
+│   └── company_data.json
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── chatbot.py
+│   └── utils.py
+└── venv/ 
